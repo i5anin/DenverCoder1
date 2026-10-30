@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-30T14:47:11.360Z",
+  "project": "DenverCoder1",
+  "root": ".",
+  "method": "static-local-index",
+  "limitations": [
+    "Нет динамических вызовов и сетевых интеграций",
+    "Сверять sha256 и evidence.line с текущими исходниками",
+    "Наличие зависимости не доказывает работоспособность"
+  ],
+  "nodes": [
+    {
+      "id": "project:DenverCoder1",
+      "type": "project",
+      "name": "DenverCoder1"
+    },
+    {
+      "id": "project:DenverCoder1/file:.github/FUNDING.yml",
+      "type": "file",
+      "path": ".github/FUNDING.yml"
+    },
+    {
+      "id": "project:DenverCoder1/file:.github/workflows/github-activity.yml",
+      "type": "file",
+      "path": ".github/workflows/github-activity.yml"
+    },
+    {
+      "id": "project:DenverCoder1/file:.github/workflows/youtube-workflow.yml",
+      "type": "file",
+      "path": ".github/workflows/youtube-workflow.yml"
+    },
+    {
+      "id": "project:DenverCoder1/file:README.md",
+      "type": "file",
+      "path": "README.md",
+      "sha256": "f07792970db945132b2a1896acf3225699220f1c60ccf1452e12a4e8e1d760fd",
+      "bytes": 30835
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:DenverCoder1",
+      "target": "project:DenverCoder1/file:.github/FUNDING.yml",
+      "relation": "contains",
+      "evidence": {
+        "path": ".github/FUNDING.yml"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:DenverCoder1",
+      "target": "project:DenverCoder1/file:.github/workflows/github-activity.yml",
+      "relation": "contains",
+      "evidence": {
+        "path": ".github/workflows/github-activity.yml"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:DenverCoder1",
+      "target": "project:DenverCoder1/file:.github/workflows/youtube-workflow.yml",
+      "relation": "contains",
+      "evidence": {
+        "path": ".github/workflows/youtube-workflow.yml"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:DenverCoder1",
+      "target": "project:DenverCoder1/file:README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "README.md"
+      },
+      "method": "filesystem"
+    }
+  ]
+}
